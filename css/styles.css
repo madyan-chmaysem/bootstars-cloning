@@ -1,22 +1,28 @@
-
+*{
+    padding: 0%;
+    margin: 0%;
+}
 body {
-    background-color: lightgray;
+    background-color: white;
 }
 
 p {
-    padding: 20px 0;
+   padding: 5px;
+}
+.nav{
+    background-color:#2c3e50 ;
 }
 
 .main-container {
     padding: 5% 10%;
 }
-
+.hero{
+    background-color: #1abc9c;
+}
 .flex {
     
     display: flex;
-    background: green;
-    
-   
+
 }
 .center {
     justify-content: center;
@@ -24,14 +30,28 @@ p {
 .image{
     margin: 10px;
 }
+.image1{
+    margin-top: 20vh;
+    width: 35vh;
+    height: 40vh;
+}
+.card{
+    margin: 10px;
+    width: 50vh;
+    height: 50vh;
+}
 
-.item {
+button {
    
     width:100px;
     height:50px;
     margin:5px;
     margin-top: 15px;
-    background:rgb(27, 6, 6);
+    background: #1abc9c;
+    border-color: white;
+    border-radius:5%;
+    
+    color: white;
 }
 .flex-space-between {
     justify-content: space-between;
@@ -46,3 +66,25 @@ p {
 .align-items-center {
     align-items: center;
 }
+.box{
+    font-size: 20px;
+    color: white;
+    width: 45vh;
+    height: auto;
+    background-color: #1abc9c;
+    margin:5px;
+    margin-top: 15px;
+
+}
+input{
+    width: 80vh;
+    height: 10vh;
+   
+
+  
+
+}
+
+    
+    
+
