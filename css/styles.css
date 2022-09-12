@@ -1,0 +1,48 @@
+
+body {
+    background-color: lightgray;
+}
+
+p {
+    padding: 20px 0;
+}
+
+.main-container {
+    padding: 5% 10%;
+}
+
+.flex {
+    
+    display: flex;
+    background: green;
+    
+   
+}
+.center {
+    justify-content: center;
+}
+.image{
+    margin: 10px;
+}
+
+.item {
+   
+    width:100px;
+    height:50px;
+    margin:5px;
+    margin-top: 15px;
+    background:rgb(27, 6, 6);
+}
+.flex-space-between {
+    justify-content: space-between;
+}
+.flex-space-around{
+    justify-content: space-around;
+}
+.dir-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
